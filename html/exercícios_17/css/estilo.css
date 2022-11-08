@@ -1,0 +1,52 @@
+@charset "UTF-8";
+
+
+@font-face {
+    font-family: do;
+    src: url(fonte/Blackout.otf);
+    src: url(fonte/AbrilFatface-Regular.otf);
+
+    font-weight:normal;
+    font-style:normal;
+}
+
+body{
+    background-image: linear-gradient(to bottom, #009EFF, #1FFF00);
+}
+
+main{
+    background-color: white;
+    width: 360px;
+    padding: 10px;
+    margin: auto;
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px darkblue ;
+}
+
+p{
+    font-style: italic;
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+    text-indent: 1em;
+    
+    
+}
+
+h2{
+    font-family: do;
+    color:#FF6100; 
+    font-size: 2em;
+    font-weight: lighter;
+    text-decoration: underline;
+    text-align: center;
+    
+}
+
+h1{
+    font-style: italic;
+    font-family: do;
+    color:#E000FF ;
+    font-weight: bold;
+    text-align: center;
+    
+}

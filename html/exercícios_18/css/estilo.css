@@ -1,0 +1,61 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: drake;
+    src: url(Blackout.otf);
+}
+
+body{
+    background-image: linear-gradient(to bottom, #9000FF,#FF006F);
+}
+
+
+main{
+    
+    width: 370px;
+    background-color: white;
+    padding: 10px;
+    margin: auto;
+    border-radius: 30px;
+    box-shadow: 5px 5px 2px #00FF0E;
+    
+}
+h1,h2{
+    font-family: drake, monospace;
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif ;
+    text-align: justify;
+}
+
+#title{
+    
+    text-align: center;
+    color: #6FFF00
+    
+}
+
+.básico {
+    color: #9000FF;
+}
+.médio {
+    color: #006FFF;
+}
+
+.intermediário{
+    color: #FF006F
+}
+
+h1{
+    color: #00FF90;
+    
+}
+.inde{
+    text-indent: 1em;
+}
+
+.grande{
+    font-weight: bolder;
+    font-size: 1.5em;
+}

@@ -1,0 +1,32 @@
+@charset "UTF-8";
+
+
+body {
+     background-image: linear-gradient(#16FF37, #FF3716); 
+}
+
+p{
+     text-align: justify;
+}
+     
+main{
+     background-color: whitesmoke;
+     width: 360px;
+     padding: 10px; 
+     border-radius: 20px;
+     box-shadow: 10px 10px 10px black;
+     
+     margin: auto;
+}
+
+h1{
+     color: #3716FF;
+     font-family: Monospace;
+     }
+h2{
+     font-family: Monospace;
+     color: #FF16DE;
+}
+p{font-family: sans-serif;}
+
+*{font-family:Serif ;}

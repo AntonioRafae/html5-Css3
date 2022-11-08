@@ -1,0 +1,72 @@
+@charset "UTF-8";
+
+*{
+    height: 100%;
+}
+
+body{
+    font-family: monospace;
+    background-image: linear-gradient(to bottom,#AFFF97, #FFB397 );
+    
+}
+
+main{
+     background-color: whitesmoke;
+     width: 93%;
+     height: 97%;
+     padding: 10px; 
+     border-radius: 20px;
+     box-shadow: 10px 10px 10px black;
+     margin: auto;
+     text-align: center ;
+}
+
+h1{
+    height: 5%;
+    font-family: serif;
+}
+
+ul{
+    height:3%;
+    text-align: left;
+    font-size: 150%;
+    
+    
+}
+li{
+    height: auto;
+}
+
+a{
+    text-decoration: none;
+    color: orange;
+}
+
+a:active{
+    color: lime;
+}
+
+a:hover{
+    background-color:#DDAAAA ;
+    color: black;
+}
+
+ a:visited{
+    color:#C02323; 
+     
+ }
+
+
+a::after{
+    content: "link";
+    color: #B4B9F3;
+    font-size: 75%;
+}
+
+.especial::after{
+    content: "aprovado";
+}
+
+.especial::before{
+    content: "";
+}

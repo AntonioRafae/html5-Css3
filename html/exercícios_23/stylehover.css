@@ -1,0 +1,49 @@
+
+@charset "UTF-8";
+
+.mainf{
+    text-align: center;
+}
+
+/* houver */
+
+.hv > .hp, .pn, .pm, .pse, .pa, .pas{
+    display: none;
+}
+
+div > header:hover >  .hp{
+    display: block;
+}
+
+header > nav:hover > .pn{
+    display: block;
+}
+
+.mainf:hover > .pm{
+    display: block;
+}
+
+.mainf > section:hover > .pse{
+    display: block;
+
+}
+
+.mainf > section > article:hover > .pa{
+    display: block;
+    
+}
+.mainf > section > article > aside:hover > .pas{
+    display: block;
+}
+
+div > footer > .pfo{
+    display: none;
+}
+
+footer:hover > .pfo{
+    display: block;
+}
+
+body{
+
+}

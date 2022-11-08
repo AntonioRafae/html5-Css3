@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+
+body{
+     background-color: black;
+     font-family: Arial;
+     }
+     
+strong{
+     color: #ff00f1;
+     background-color: white;
+}     
+     
+h1{
+     color: #ff00f1;
+     font-family: Monospace;
+     background-color: white;
+     }
+     
+h2{
+     color: lawngreen;
+     font-family: Monospace;
+     font-size: 30px;
+     background-color: white;
+}
+h3{
+     color: lawngreen;
+     }
+     
+p{
+     color: white;
+     text-align: justify;
+     }
+
+a{
+     color: orange;
+}
+

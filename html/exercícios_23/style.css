@@ -1,0 +1,141 @@
+@charset "UTF-8";
+
+.telacheia{
+    height: 100%;
+}
+
+div{
+    background-image: linear-gradient( to bottom, #00FF11,#EEFF00);
+    border-radius: 2%;
+    box-shadow: 5px 5px 5px #000000;
+    height: 97%;
+    width: 97%;
+    margin: auto;
+    padding: 1%;
+    text-align: center;
+}
+h1,.headerv{ 
+    background-color: #DCDDEC;
+    text-align: center;
+    border-radius: 20px;
+    margin: auto;
+    border: none;
+    
+}
+h1{
+    padding: 5%;
+    margin-top: 1px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 170%;
+}
+
+.mainv{
+    background-color: #DCDDEC;
+    text-align: center ;
+    
+}
+.h2v{
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.saber{
+    color: blue;
+}
+
+
+header{
+    background-color: #B9D6D7;
+    margin: auto;
+    border: 3px solid black;
+}
+
+nav{
+    width: 97%;
+    border: 3px solid black;
+    margin: auto;
+    margin-bottom: 0.5%;
+    
+}
+
+
+.mainf{
+    background-color: #B9D6D7;
+    border: 3px solid black ;
+    margin-bottom: 9;
+    padding: 1%;
+    margin-top: 10px;
+    
+    
+}
+.separate{
+   border: 4px solid #B9D6D700 ;
+   font-size: 0%;
+}
+
+.separate2{
+    border: 1.5px solid #B9D6D700;
+    font-size: 0%; 
+    
+}
+section{
+    display: inline-block;
+     border: 3px solid black ;
+     width: 60%;
+     padding: 0.5%;
+}
+
+.article1{
+    display: inline-block;
+    border: 3px solid black;
+    width: 98%
+}
+
+.articlef,.asidef{
+    display: inline-block;
+    width: 98%;
+    margin: auto ;
+    border: 3px solid black ;
+}
+
+.asidef{
+    width: 35%;
+    padding: -2%;
+    text-align: center ;
+    
+    
+}
+
+.articleh2{
+    display: inline-block;
+    width: 56.5%;
+    
+}
+
+
+.e,.i{
+    
+    border: 1.7px solid #1BA7AC00;
+    margin: 0px;
+}
+
+.reta{
+    display: inline-block;
+    border: 3px solid black ;
+    width: 32.5%;
+    margin: auto;
+    padding: 1%;
+    padding-top: 4%;
+    padding-top: 4px;
+    
+    
+}
+
+footer{
+    border: 3px solid black;
+}
+
+.reta > h2{
+    margin-top: 90%;
+    
+}

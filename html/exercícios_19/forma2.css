@@ -1,0 +1,47 @@
+@charset "UTF-8";
+*{
+    height: 100%
+}
+
+ body {
+    background-image: linear-gradient(to right, #00FF47, #FF4700)
+} 
+main {
+    
+    background-color: #FFFFFF;
+    width: 93%;
+    height: 97%;
+    margin: auto;
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 10px 10px 3px #000000;
+
+}
+
+#title{
+    font-family: serif;
+    font-weight: bolder;
+    font-size: 3em;
+  
+    
+}
+
+div{
+    height: 2%;
+    width: 97%;
+    text-align: center ;
+    font-size: 2em;
+}
+div > small > p{
+    display: none;
+    
+}
+
+div:hover > small > p{
+    display: block;
+    background-color: #00B8FF;
+}
+
+small{
+    font-size: 50%;
+}
